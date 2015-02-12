@@ -14,6 +14,12 @@
 		FDB6FF791A8CE7B700B2A50F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB6FF781A8CE7B700B2A50F /* Images.xcassets */; };
 		FDB6FF7C1A8CE7B700B2A50F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB6FF7A1A8CE7B700B2A50F /* LaunchScreen.xib */; };
 		FDB6FF881A8CE7B700B2A50F /* pdf_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FF871A8CE7B700B2A50F /* pdf_testTests.m */; };
+		FDB6FF941A8CEEAA00B2A50F /* PDFTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FF931A8CEEAA00B2A50F /* PDFTextLabel.m */; };
+		FDB6FF971A8CEF2500B2A50F /* PDFTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FF961A8CEF2500B2A50F /* PDFTextStyle.m */; };
+		FDB6FF9B1A8CF13D00B2A50F /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FF9A1A8CF13D00B2A50F /* PDFView.m */; };
+		FDB6FF9E1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FF9D1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.m */; };
+		FDB6FFA11A8D084000B2A50F /* PDFElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FFA01A8D084000B2A50F /* PDFElement.m */; };
+		FDB6FFA41A8D094400B2A50F /* PDFTextStyle+MyStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB6FFA31A8D094400B2A50F /* PDFTextStyle+MyStyles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		FDB6FF811A8CE7B700B2A50F /* pdf_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdf_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB6FF861A8CE7B700B2A50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDB6FF871A8CE7B700B2A50F /* pdf_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pdf_testTests.m; sourceTree = "<group>"; };
+		FDB6FF921A8CEEAA00B2A50F /* PDFTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTextLabel.h; sourceTree = "<group>"; };
+		FDB6FF931A8CEEAA00B2A50F /* PDFTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTextLabel.m; sourceTree = "<group>"; };
+		FDB6FF951A8CEF2500B2A50F /* PDFTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTextStyle.h; sourceTree = "<group>"; };
+		FDB6FF961A8CEF2500B2A50F /* PDFTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTextStyle.m; sourceTree = "<group>"; };
+		FDB6FF991A8CF13D00B2A50F /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		FDB6FF9A1A8CF13D00B2A50F /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		FDB6FF9C1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HierarchicalDrawing.h"; sourceTree = "<group>"; };
+		FDB6FF9D1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HierarchicalDrawing.m"; sourceTree = "<group>"; };
+		FDB6FF9F1A8D084000B2A50F /* PDFElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFElement.h; sourceTree = "<group>"; };
+		FDB6FFA01A8D084000B2A50F /* PDFElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFElement.m; sourceTree = "<group>"; };
+		FDB6FFA21A8D094400B2A50F /* PDFTextStyle+MyStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDFTextStyle+MyStyles.h"; sourceTree = "<group>"; };
+		FDB6FFA31A8D094400B2A50F /* PDFTextStyle+MyStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDFTextStyle+MyStyles.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,8 @@
 		FDB6FF6A1A8CE7B700B2A50F /* pdf_test */ = {
 			isa = PBXGroup;
 			children = (
+				FDB6FF981A8CEF2900B2A50F /* Helpers */,
+				FDB6FF911A8CE7BE00B2A50F /* Views */,
 				FDB6FF6F1A8CE7B700B2A50F /* AppDelegate.h */,
 				FDB6FF701A8CE7B700B2A50F /* AppDelegate.m */,
 				FDB6FF721A8CE7B700B2A50F /* ViewController.h */,
@@ -117,6 +137,32 @@
 				FDB6FF861A8CE7B700B2A50F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB6FF911A8CE7BE00B2A50F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDB6FF9F1A8D084000B2A50F /* PDFElement.h */,
+				FDB6FFA01A8D084000B2A50F /* PDFElement.m */,
+				FDB6FF921A8CEEAA00B2A50F /* PDFTextLabel.h */,
+				FDB6FF931A8CEEAA00B2A50F /* PDFTextLabel.m */,
+				FDB6FF991A8CF13D00B2A50F /* PDFView.h */,
+				FDB6FF9A1A8CF13D00B2A50F /* PDFView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDB6FF981A8CEF2900B2A50F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FDB6FF9C1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.h */,
+				FDB6FF9D1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.m */,
+				FDB6FF951A8CEF2500B2A50F /* PDFTextStyle.h */,
+				FDB6FF961A8CEF2500B2A50F /* PDFTextStyle.m */,
+				FDB6FFA21A8D094400B2A50F /* PDFTextStyle+MyStyles.h */,
+				FDB6FFA31A8D094400B2A50F /* PDFTextStyle+MyStyles.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +265,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB6FF941A8CEEAA00B2A50F /* PDFTextLabel.m in Sources */,
+				FDB6FF9E1A8CF95C00B2A50F /* UIView+HierarchicalDrawing.m in Sources */,
+				FDB6FF9B1A8CF13D00B2A50F /* PDFView.m in Sources */,
+				FDB6FFA11A8D084000B2A50F /* PDFElement.m in Sources */,
+				FDB6FF971A8CEF2500B2A50F /* PDFTextStyle.m in Sources */,
 				FDB6FF741A8CE7B700B2A50F /* ViewController.m in Sources */,
 				FDB6FF711A8CE7B700B2A50F /* AppDelegate.m in Sources */,
+				FDB6FFA41A8D094400B2A50F /* PDFTextStyle+MyStyles.m in Sources */,
 				FDB6FF6E1A8CE7B700B2A50F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
